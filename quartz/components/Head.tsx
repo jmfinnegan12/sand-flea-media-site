@@ -82,7 +82,10 @@ export default (() => {
           </>
         )}
 
-        <link rel="icon" href={iconPath} />
+        <link
+          rel="icon"
+          href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2026%2022'%3E%3Cg%20fill='none'%20stroke='%234a8c5e'%20stroke-width='2.4'%20stroke-linecap='round'%3E%3Cpath%20d='M3%208%20Q%208%203%2013%208%20T%2023%208'/%3E%3Cpath%20d='M3%2015%20Q%208%2010%2013%2015%20T%2023%2015'/%3E%3C/g%3E%3C/svg%3E"
+        />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
